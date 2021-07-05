@@ -1,0 +1,31 @@
+body{
+    animation: animate 10s infinite forwards;
+
+}
+
+@keyframes animate {
+     0%{
+         background-color: blue;
+     }
+     25%{
+         background-color: green;
+     }
+     50%{
+         background-color: yellow;
+     }
+     100%{
+         background-color: red;
+     }
+}
+
+.container img{
+    border-radius: 35px;
+    margin-bottom: 12px;
+}
+
+.custom-range{
+    margin-top: 12px;
+}
+.form-control{
+    margin-top: 12px;
+}
